@@ -13,10 +13,10 @@
     <div class="text-pink-400 text-2xl font-bold">panjar.</div>
     <div>
       <ul class="flex space-x-8 text-white">
-        <li><a href="#" class="hover:text-pink-400">NAMA</a></li>
-        <li><a href="#" class="hover:text-pink-400">HOBI</a></li>
-        <li><a href="#" class="hover:text-pink-400">PENDIDIKAN</a></li>
-        <li><a href="#" class="hover:text-pink-400">SOSMED</a></li>
+        <li><a href="{{route('login')}}" class="hover:text-pink-400">Login</a></li>
+        <li><a href="{{route('about')}}" class="hover:text-pink-400">About</a></li>
+        <li><a href="{{route('home')}}" class="hover:text-pink-400">Home</a></li>
+        <li><a href="#" class="hover:text-pink-400">Sosmed</a></li>
       </ul>
     </div>
   </nav>
